@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/SMSL_Nabila-Febriyanti-Valentin/Membangun_model/SMSL_Nabila-Febriyanti-Valentin/Membangun_model/mlruns/732326517067751436/720208b883ff4ae183f9a95ce3886203/artifacts
+end_time: 1750077194137
+entry_point_name: ''
+experiment_id: '732326517067751436'
+lifecycle_stage: active
+run_id: 720208b883ff4ae183f9a95ce3886203
+run_name: dashing-asp-150
+run_uuid: 720208b883ff4ae183f9a95ce3886203
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1750077118492
+status: 3
+tags: []
+user_id: ACER

@@ -1,0 +1,23 @@
+digest: c026b8c0
+name: dataset
+profile: '{"num_rows": 1000, "num_elements": 22000}'
+schema: '{"mlflow_colspec": [{"type": "double", "name": "Age", "required": true},
+  {"type": "long", "name": "Gender", "required": true}, {"type": "long", "name": "self_employed",
+  "required": true}, {"type": "long", "name": "family_history", "required": true},
+  {"type": "long", "name": "work_interfere", "required": true}, {"type": "long", "name":
+  "no_employees", "required": true}, {"type": "long", "name": "remote_work", "required":
+  true}, {"type": "long", "name": "tech_company", "required": true}, {"type": "long",
+  "name": "benefits", "required": true}, {"type": "long", "name": "care_options",
+  "required": true}, {"type": "long", "name": "wellness_program", "required": true},
+  {"type": "long", "name": "seek_help", "required": true}, {"type": "long", "name":
+  "anonymity", "required": true}, {"type": "long", "name": "leave", "required": true},
+  {"type": "long", "name": "mental_health_consequence", "required": true}, {"type":
+  "long", "name": "phys_health_consequence", "required": true}, {"type": "long", "name":
+  "coworkers", "required": true}, {"type": "long", "name": "supervisor", "required":
+  true}, {"type": "long", "name": "mental_health_interview", "required": true}, {"type":
+  "long", "name": "phys_health_interview", "required": true}, {"type": "long", "name":
+  "mental_vs_physical", "required": true}, {"type": "long", "name": "obs_consequence",
+  "required": true}]}'
+source: '{"tags": {"mlflow.user": "ACER", "mlflow.source.name": "modelling.py", "mlflow.source.type":
+  "LOCAL"}}'
+source_type: code
