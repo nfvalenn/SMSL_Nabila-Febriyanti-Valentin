@@ -101,16 +101,18 @@ Dataset hasil preprocessing dapat dilihat di:
 * **MLflow Tracking URI**:
   📌 `https://dagshub.com/nfvalenn/mental-health-Nabila-Febriyanti-Valentin.mlflow`
 
-* **Monitoring CI/CD (Jika Diaktifkan)** → Bisa ditambahkan di `.github/workflows/main.yml`.
+* **Monitoring CI/CD (Jika Diaktifkan)** → Bisa ditambahkan di `.github/workflows/ci.yml`.
 
 ---
 
 ### 3️⃣ **Integrasi Eksternal**
 
-| Komponen      | Endpoint                                                                       |
-| ------------- | ------------------------------------------------------------------------------ |
-| MLflow Server | `https://dagshub.com/nfvalenn/mental-health-Nabila-Febriyanti-Valentin.mlflow` |
-| Model Serving | Contoh: `http://127.0.0.1:5000/invocations` (jika lokal)                       |
+| Komponen      | Endpoint                                                                                         |
+| ------------- | -------------------------------------------------------------------------------------------------|
+| MLflow Server | `https://dagshub.com/nfvalenn/mental-health-Nabila-Febriyanti-Valentin.mlflow`                   |
+| Model Serving | Contoh: `http://127.0.0.1:5000/invocations` (jika lokal)                                         |
+| Repository    | [Repositori Eksperimen](https://github.com/nfvalenn/Eksperimen_Nabila-Febriyanti-Valentinn.git)  |
+                  [Repositori Workflow CI](https://github.com/nfvalenn/Workflow_CI.git)
 
 ---
 
@@ -141,12 +143,17 @@ python modelling_tuning.py
 
 ---
 
-## 🏁 Contoh Prediksi
+##  Contoh Penggunaan
 
 Jalankan prediksi ke endpoint model (jika menggunakan model serving):
 
 ```bash
-python predict_request.py
+python "Monitoring dan Logging/inference.py"
+```
+
+pantauan premotheus
+```bash
+http://127.0.0.1:8000/metriks
 ```
 
 ---
