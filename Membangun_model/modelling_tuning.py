@@ -2,15 +2,22 @@ import pandas as pd
 import numpy as np
 import mlflow
 import mlflow.sklearn
+import os
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score
+from dotenv import load_dotenv
+
 
 mlflow.sklearn.autolog()
+load_dotenv()
 
 mlflow.set_tracking_uri("https://dagshub.com/nfvalenn/mental-health-Nabila-Febriyanti-Valentin.mlflow")
 mlflow.set_experiment("Mental Health Prediction Tuning")
+
+os.environ['MLFLOW_TRACKING_USERNAME'] = os.getenv("MLFLOW_TRACKING_USERNAME")
+os.environ['MLFLOW_TRACKING_PASSWORD'] = os.getenv("MLFLOW_TRACKING_PASSWORD")
 
 df = pd.read_csv("mental_health_cleaned.csv")
 
