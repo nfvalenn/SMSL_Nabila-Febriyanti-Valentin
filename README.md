@@ -109,7 +109,7 @@ Dataset hasil preprocessing dapat dilihat di:
 
 | Komponen      | Endpoint                                                                                         |
 | ------------- | -------------------------------------------------------------------------------------------------|
-| MLflow Server | [[dagshub](https://dagshub.com/nfvalenn/mental-health-Nabila-Febriyanti-Valentin.mlflow)](https://dagshub.com/nfvalenn/mental-health-Nabila-Febriyanti-Valentin.mlflow)        |
+| MLflow Server | [https://dagshub.com/nfvalenn/mental-health-Nabila-Febriyanti-Valentin.mlflow](https://dagshub.com/nfvalenn/mental-health-Nabila-Febriyanti-Valentin.mlflow)        |
 | Model Serving | http://127.0.0.1:5000/                                                           |
 | Repository    | [Repositori Eksperimen](https://github.com/nfvalenn/Eksperimen_Nabila-Febriyanti-Valentinn.git)  |
 |               |  [Repositori Workflow CI](https://github.com/nfvalenn/Workflow_CI.git)                           |
