@@ -7,7 +7,7 @@ import random
 PROMETHEUS_EXPORTER_PORT = 8000
 
 # Tracking URI MLflow (local)
-mlflow.set_tracking_uri("file:///D:/SMSL_Nabila-Febriyanti-Valentin/Membangun_model/SMSL_Nabila-Febriyanti-Valentin/Membangun_model/mlruns")
+mlflow.set_tracking_uri("Membangun_model/mlruns")
 
 # Inisialisasi metriks Prometheus
 loss_metric = Gauge('model_loss', 'Current Loss of ML Model')
