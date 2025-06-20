@@ -112,7 +112,7 @@ Dataset hasil preprocessing dapat dilihat di:
 | MLflow Server | `https://dagshub.com/nfvalenn/mental-health-Nabila-Febriyanti-Valentin.mlflow`                   |
 | Model Serving | Contoh: `http://127.0.0.1:5000/invocations` (jika lokal)                                         |
 | Repository    | [Repositori Eksperimen](https://github.com/nfvalenn/Eksperimen_Nabila-Febriyanti-Valentinn.git)  |
-                  [Repositori Workflow CI](https://github.com/nfvalenn/Workflow_CI.git)
+|               |  [Repositori Workflow CI](https://github.com/nfvalenn/Workflow_CI.git)                           |
 
 ---
 
